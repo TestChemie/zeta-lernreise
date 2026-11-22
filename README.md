@@ -30,6 +30,8 @@ Das Summenlabor berechnet reelle Partialsummen für s > 1 und eine integrale Res
 - `dist/style.css`: responsive Gestaltung
 - `tests.cjs`: numerische und Inhaltsprüfungen (`node tests.cjs`)
 
-Jeder statische Webhost kann den Ordner `dist` ausliefern. Der optionale GitHub-Pages-Workflow wird manuell gestartet, nachdem Pages in den Repository-Einstellungen auf „GitHub Actions“ gestellt wurde. Bei privaten Repositories hängt die Verfügbarkeit vom GitHub-Tarif ab. Die fertige App ist unabhängig davon privat unter https://zeta-lernreise-20261122.florian-hefeos.chatgpt.site veröffentlicht. `.openai/hosting.json` gehört nur zur lokalen Site-Verwaltung und ist für GitHub Pages nicht erforderlich.
+Online: https://testchemie.github.io/zeta-lernreise/
+
+Jeder statische Webhost kann den Ordner `dist` ausliefern. Die Veröffentlichung wird unter Actions → Publish learning app → Run workflow gestartet.
 
 Lokale Speicherung ist browser- und ursprungsgebunden; im privaten Modus oder bei gesperrtem Speicher bleibt der Fortschritt gegebenenfalls nur bis zum Schließen erhalten.
